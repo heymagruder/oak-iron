@@ -1,0 +1,44 @@
+/* Containers */
+body { font-size: 0.875em; padding: 0; }
+.grid{ margin:0 auto; padding: 0 10px; }
+.row{ clear:left; }
+
+.banner{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.footer {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer h4{
+	text-align:center;
+}
+
+.footer p{
+	text-align:center;
+}
+
+
+#menu a:link, a:visited {
+    margin:0 auto;
+    display:block;
+    width: 120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding: 15px;
+}
+
+.quote h2{
+    font-size: 2.0em;
+    padding: 1.1em;
+    line-height: 1.5;
+}
+
+.feature{
+padding-bottom: 60px;
+}

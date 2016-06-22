@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	color: #444;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	line-height: 1.5em;
+}
+ol, ul {
+	list-style: square;
+	margin: 0 0 0.5em;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+code {
+	background-color: #f4f4f4;
+	font-family: Menlo, 'Panic Sans', monospace;
+	font-size: 0.875em;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong {
+	font-weight: bold;
+}
+p {
+	margin: 0 0 0.5em;
+	max-width: 634px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding: 0.5em 0 0.25em;
+	letter-spacing: -1px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6 {
+	font-size: 0.8em;
+}
+
+
+a, a:link, a:visited {
+	color: #E74C3C;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background: rgb(231, 76, 60);
+	border-color: rgb(231, 76, 60);
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	background: url(../images/bg_hr.png) center center no-repeat;
+	height: 10px;
+}
+
+#logo {
+	padding-bottom: 0;
+}
+
+.logo {
+	color: rgb(231, 76, 60);
+	font-family: sommet-slab-1,sommet-slab-2,Georgia,serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	opacity: 0.9;
+}
+
+
+.logo b {
+	font-weight: bold;
+}
+
+.banner {
+	padding: 5em;
+}
+
+.banner h3{
+	font-size: 1.6em;
+	color: #fff;
+}
+
+.banner-wrap {
+	text-align: center;
+	background: none repeat scroll 0% 0% rgb(189, 195, 199);
+	padding: 0px 10px 10em;
+	background-image:url(../images/header.png);
+}
+
+.banner-wrap-nav {
+	text-align: center;
+}
+
+
+#menu ul {
+        list-style-type: none;
+        padding: 0;
+        overflow:hidden;
+}
+
+#menu a:link, a:visited {
+    margin:0 auto;
+    display:block;
+    width: 120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding: 15px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#menu a:hover, a:active {
+    background-color:#c0392b;
+}
+
+#menu li {
+    display:inline-block;
+
+}
+
+#menu {
+	background-color: rgb(231, 76, 60);
+	text-align:center;
+	transition: 0.2s ease all;
+}
+
+body.fixed #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+	z-index: 9999;
+}
+
+.intro {
+	font-size: 1em;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-weight: 300;
+	line-height: 1.1em;
+	max-width: none;
+	color: rgb(255, 255, 255);
+	opacity: 0.9;
+}
+
+.grid {
+	padding: 0 20px;
+}
+
+.row {
+	margin-bottom: 1em;
+	padding-bottom: 2.5em;
+}
+
+.quote{
+	text-align: center;
+	background-color: rgb(231, 76, 60);
+	width: 100%;
+	padding-bottom: 60px;
+	margin-top:80px;
+}
+
+.quote h2 {
+	font-family: 'Kaushan Script', cursive;
+	color: rgb(55, 55, 55);
+	font-size: 2.5em;
+	padding: 1.1em;
+	line-height: 1.8;
+}
+
+.quote p {
+	margin:0 auto;
+	font-size: 17px;
+}
+
+.feature {
+
+}
+
+.feature h2{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 40px;
+	padding-top: 160px;
+
+}
+
+.feature p {
+	font-size: 1.0em;
+}
+
+
+.example-grids {
+	margin-bottom: 4em;
+}
+
+.example-grids .row { margin-bottom: 0; }
+
+.example-grids .row p {
+	background: #ffc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-family: Menlo, 'Panic Sans', monospace;
+	padding: 1em;
+	margin: 0 0 1em;
+}
+
+.slot-6-7, .slot-8-9 {
+padding-bottom: 5em;
+}
+
+
+.footer {
+	background-color: #373737;
+	padding: 2em;
+	color: rgb(230, 230, 230);
+	padding-left:100px;
+}
